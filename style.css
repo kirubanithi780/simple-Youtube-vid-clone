@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+/*  header  */
+
+.header .fa-user{
+    color: gray;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 15px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.left img{
+    width: 100px;
+    margin-left: 15px;
+}
+.header-icons i{
+    padding:  0px 7px;
+    cursor: pointer;
+}
+
+
+.header-search form{
+    border: 1px solid  #ddd;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.header-search input{
+    width: 500px;
+    padding: 10px;
+    margin: 0%;
+    border-radius:0 ;
+    border: none;
+}
+
+.header-search button{
+    padding: 10px;
+    margin: 0;
+    height: 100%;
+    border: none;
+    border-radius: 0;
+}
+.subs img{
+    border-radius:100% ;
+}
+.subs{
+    display: flex;
+    margin-top: 10px;
+}
+
+.name{
+   
+    padding: 0px 12px 0px;
+}
+.name .one{
+    padding-top: 5px;
+}
+
+.description{
+    margin: 10px;
+}
+.video{
+    margin: 10px;
+}
+.join{
+    width: 35px;
+    background-color: gray;
+    border-radius: 25px;
+    height: 30px;
+    
+}
+.join p{
+    padding: 5px;
+}
+.su{
+    width: 70px;
+    background-color: gray;
+    border-radius: 25px;
+    height: 30px;
+}
+.su p{
+    padding: 5px;
+}
+.btn{
+    display: flex;
+   gap: 10px;
+   margin-left: 40px;
+}
+.likes img{
+    margin: 0;
+}
+.pd{
+  
+    background-color: rgb(187, 0, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+   
+    
+}
+form{
+    font-weight: bold;
+}
+.pd h1{
+    margin: 20px;
+    background-color: skyblue;
+    text-align: center;
+    padding: 10px;
+}
+.detail {
+    padding: 20px;
+}
+.detail .fn{
+    padding: 20px;
+}
+.detail .ln{
+    padding: 20px;
+}
+.detail .rad{
+    padding: 20px;
+}
+.detail .email{
+    padding: 20px;
+}
+.detail .dob{
+    padding: 20px;
+}
+.detail .button{
+    display: flex;
+    justify-content: center;
+    
+}
+.button button{
+          width: 70px;
+          height: 30px;
+}
+.su a{
+color: black;
+}
+
+@media (max-width:425px) {
+    .header-search .search{
+        display: inline;
+        width: 30px;
+    }
+    .header-search button{
+        display: inline;
+
+    }
+    .video .vid{
+        width: 400px;
+    }
+    .likes img{
+        display: block;
+    }
+}
+.para :nth-child(2){
+    padding: 20px 0px ;
+}
